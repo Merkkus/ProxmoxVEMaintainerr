@@ -39,6 +39,7 @@ msg_ok "Built Maintainerr"
 
 msg_info "Setting Up Data Directory"
 mkdir -p /opt/data/logs
+ln -sf /opt/maintainerr /opt/app
 msg_ok "Set Up Data Directory"
 
 msg_info "Creating Service"

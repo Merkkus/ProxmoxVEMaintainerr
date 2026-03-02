@@ -46,6 +46,7 @@ function update_script() {
     cp -r /opt/maintainerr/apps/ui/dist /opt/maintainerr/apps/server/dist/ui
     find /opt/maintainerr/apps/server/dist/ui -type f -exec sed -i 's,/__PATH_PREFIX__,,g' {} \;
     $STD yarn workspaces focus --all --production
+    ln -sf /opt/maintainerr /opt/app
     msg_ok "Built ${APP}"
 
     msg_info "Starting Service"
