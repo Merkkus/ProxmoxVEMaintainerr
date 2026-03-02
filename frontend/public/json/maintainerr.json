@@ -1,0 +1,34 @@
+{
+  "name": "Maintainerr",
+  "slug": "maintainerr",
+  "categories": [
+    13
+  ],
+  "date_created": "2026-03-02",
+  "type": "ct",
+  "updateable": true,
+  "privileged": false,
+  "interface_port": 6246,
+  "documentation": "https://docs.maintainerr.info/",
+  "website": "https://github.com/Maintainerr/Maintainerr",
+  "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/maintainerr.webp",
+  "description": "Smart media library management tool that creates rules based on metadata from Plex, Sonarr, Radarr, Jellyfin, Overseerr, and more to automate library cleanup.",
+  "install_methods": [
+    {
+      "type": "default",
+      "script": "ct/maintainerr.sh",
+      "resources": {
+        "cpu": 2,
+        "ram": 4096,
+        "hdd": 10,
+        "os": "Debian",
+        "version": "13"
+      }
+    }
+  ],
+  "default_credentials": {
+    "username": null,
+    "password": null
+  },
+  "notes": []
+}

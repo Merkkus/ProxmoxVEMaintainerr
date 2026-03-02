@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/development/Maintainerr/**)",
+      "Read(//d/development/Maintainerr/docker/**)"
+    ]
+  }
+}

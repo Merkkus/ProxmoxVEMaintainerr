@@ -835,6 +835,13 @@
       "date": "2026-02-26T15:50:34Z"
     },
     {
+      "slug": "maintainerr",
+      "repo": "Maintainerr/Maintainerr",
+      "version": "v3.0.1",
+      "pinned": false,
+      "date": "2026-02-28T00:00:00Z"
+    },
+    {
       "slug": "mealie",
       "repo": "mealie-recipes/mealie",
       "version": "v3.11.0",
